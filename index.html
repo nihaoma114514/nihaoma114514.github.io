@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <audio src="music/1.mp3" id="aud" autoplay="autoplay" controls="controls" preload="auto" loop="loop"></audio>
-<link rel="icon" href="img/1.ico" type="image/x-icon">
-<link rel="shortcut icon" href="img/1.ico" type="image/x-icon">
-<title>2025新年倒数计时</title>
+<link rel="icon" href="img/2.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
+<title>2025春节倒计时</title>
 <style>
 @import url("https://fonts.googleapis.com/css?family=Aleo");
 
@@ -12,7 +13,6 @@
   font-family: "Aleo", sans-serif;
 }
 
-html,
 body {
   width: 100%;
   height: 100%;
@@ -87,12 +87,15 @@ canvas {
     font-size: 2rem;
   }
 }
+
+html,
+
 </style>
 </head>
 <body>
 <div class="middle">
-	<h1 class="label">New Year Countdown </h1>
-<h1 class="label">新年倒数计时 </h1>
+	<h1 class="label">Spring Festival Countdown </h1>
+<h1 class="label">春节倒计时 </h1>
 	<div class="time">
 		<span>
 		<div id="d">00</div>
@@ -200,7 +203,7 @@ new Snow();
 
 // Simple CountDown Clock
 
-const comingdate = new Date("Jan 1, 2025 00:00:00");
+const comingdate = new Date("Jan 29, 2025 00:00:00");
 
 const d = document.getElementById("d");
 const h = document.getElementById("h");
